@@ -150,6 +150,10 @@ MODELTRANSLATION_LANGUAGES = ('en', 'ru')
 #CELERY_BROKER_URL = 'redis://redis:6379/0'
 #CELERY_RESULT_BACKEND = 'redis://redis:6379/0'
 
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+]
+
 CKEDITOR_UPLOAD_PATH = "uploads/"
 CKEDITOR_CONFIGS = {
     'default': {

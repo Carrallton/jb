@@ -1,0 +1,51 @@
+/* Base styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .App {
+    padding: 20px;
+  }
+  
+  /* Light theme */
+  [data-theme='light'] {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  [data-theme='light'] button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  [data-theme='light'] button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Dark theme */
+  [data-theme='dark'] {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  [data-theme='dark'] button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  [data-theme='dark'] button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Quill editor styles */
+  .quill-editor {
+    margin-bottom: 20px;
+  }
