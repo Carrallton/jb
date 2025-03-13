@@ -1,0 +1,10 @@
+Django==4.1
+djangorestframework==3.14.0
+psycopg2-binary==2.9.3
+django-cors-headers==3.13.0
+django-modeltranslation==0.18.7
+django-storages==1.13.2
+boto3==1.26.58
+redis==4.3.4
+celery==5.2.7
+django-celery-beat==2.2.1
