@@ -37,7 +37,7 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
     container_name: broover_frontend
-    command: npm run serve
+    command: npm run start
     volumes:
       - ./frontend:/app
       - /app/node_modules

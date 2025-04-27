@@ -1,18 +1,9 @@
-version: '3.8'
-
-services:
-  frontend:
-    build: .
-    command: bash -c "npm install && npm start"
-    volumes:
-      - .:/app
-      - /app/node_modules
-    ports:
-      - "3000:3000"
-    depends_on:
-      - backend
-
-networks:
-  default:
-    external:
-      name: backend_default
+frontend:
+  build:
+    context: ./frontend
+    dockerfile: Dockerfile
+  container_name: broover_frontend
+  ports:
+    - "3000:80"
+  networks:
+    - broover_network
