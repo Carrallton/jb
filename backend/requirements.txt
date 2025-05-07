@@ -12,3 +12,7 @@ django-ckeditor-5
 django-modeltranslation
 django-celery-beat
 boto3
+django-leaflet
+django-filter
+gpxpy
+geopy

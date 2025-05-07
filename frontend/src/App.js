@@ -5,6 +5,7 @@ import BlogPost from './components/BlogPost';
 import CategoryList from './components/CategoryList';
 import TagList from './components/TagList';
 import ThemeToggle from './components/ThemeToggle';
+import RouteDetail from './pages/RouteDetail';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/posts/:id" element={<BlogPost />} />
           <Route path="/categories" element={<CategoryList />} />
           <Route path="/tags" element={<TagList />} />
+          <Route path="/routes" element={<RouteDetail />} />
         </Routes>
       </div>
     </Router>
